@@ -1,0 +1,3174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.7m"
+		durationms="163367"
+		type="root"
+		rid="2876748158f967a8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="meedo"
+		rxversion="9.2.1.0"
+		host="DESKTOP-H2GLUJU"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="da-DK"
+		dtnlanguage="da-DK"
+		screenresolution="3840x2160"
+		timestamp="07-01-2020 18:35:04"
+		timestampiso="2020-01-07T17:35:04"
+		endtime="07-01-2020 18:37:48"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.8m"
+			durationms="107686"
+			type="test-suite"
+			rid="54f9bc15d349b9d"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="WordPressSample"
+			headertext="WordPressSample"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="Global_LoginURL">
+					http://webtest.ranorex.org/wp-admin/edit.php
+				</param>
+				<param
+					name="Global_Username">
+					ranorex webtest new
+				</param>
+				<param
+					name="Global_Password">
+					ranorex
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="1.8m"
+				durationms="107669"
+				type="iteration-container"
+				rid="d7bcc07832ea6d2"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="AddBlogPost"
+				headertext="AddBlogPost"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="3cad3cc9-b1a3-4575-bca1-f1d629f157b5"
+				datasource="NewConnector"
+				dataiterationcount="3">
+				<params>
+					<param
+						name="Post-Header">
+						Ranorex is awesome!
+					</param>
+					<param
+						name="Post-Content">
+						This is a demo-post automated with Ranorex
+					</param>
+					<param
+						name="Post-Link">
+					</param>
+				</params>
+				<detail>
+					Test Case: Login to Wordpress, publish a post, validate 
+the post and delete it again afterwards
+				</detail>
+				<activity
+					result="Success"
+					duration="53.93s"
+					durationms="53933"
+					type="test-case"
+					rid="fe1ecc0d339135c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="11"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="AddBlogPost"
+					testcontainerid="3cad3cc9-b1a3-4575-bca1-f1d629f157b5"
+					headertext="AddBlogPost"
+					displayName="AddBlogPost"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="browser">
+							Edge
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="3.86s"
+						durationms="3858"
+						type="setup-container"
+						rid="6ee42b452b289b"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="2"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Success"
+							duration="34ms"
+							durationms="34"
+							type="test-module"
+							rid="1e01c61d4a7ba236"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="StartWatchingPopup (WebWordPressLibrary)"
+							displayName="StartWatchingPopup (WebWordPressLibrary)"
+							moduleid="77069f78-66fa-41ee-9bc3-a658da488ad8"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+							</varbindings>
+						</activity>
+						<activity
+							result="Success"
+							duration="3.54s"
+							durationms="3540"
+							type="test-module"
+							rid="1115ca093a793e50"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="OpenBrowser (WebWordPressLibrary)"
+							displayName="OpenBrowser (WebWordPressLibrary)"
+							moduleid="1a79ad03-9369-4d42-8d3a-34a236d1ed1d"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="varLoginURL"
+									value="http://webtest.ranorex.org/wp-admin/edit.php">
+								</varbinding>
+								<varbinding
+									name="browser"
+									value="Edge">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.390"
+								timeRelativeToTestModuleStartTime="00:00.045"
+								timeWallClock="18:36:01"
+								time="00:00.390"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$varLoginURL = 'http://webtest.ranorex.org/wp-admin/edit.php', $browser = 'Edge'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.560"
+								timeRelativeToTestModuleStartTime="00:00.216"
+								timeWallClock="18:36:01"
+								time="00:00.560"
+								level="Info"
+								category="Website">
+								<message>
+									Opening web site 'http://webtest.ranorex.org' with browser specified by variable $browser in maximized mode.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\OpenBrowser.cs"
+									codeline="108"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:03.311"
+								timeRelativeToTestModuleStartTime="00:02.967"
+								timeWallClock="18:36:03"
+								time="00:03.311"
+								level="Info"
+								category="User"
+								errimg="images_WordPres_713a0acc\WordPres_c83e7bd_rxlog.jpg"
+								errthumb="images_WordPres_713a0acc\WordPres_c83e7bd_rxlog_thumb.jpg">
+								<message>
+									
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\OpenBrowser.cs"
+									codeline="112"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:03.316"
+								timeRelativeToTestModuleStartTime="00:02.972"
+								timeWallClock="18:36:03"
+								time="00:03.316"
+								level="Info"
+								category="Invoke action">
+								<message>
+									Invoking Navigate(variable $varLoginURL) on item 'WordPress_Demo'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='webtest.ranorex.org']"
+									itempath="/dom[@domain='webtest.ranorex.org']"
+									fullname="WebWordPressLibraryRepository.WordPress_Demo.Self"
+									id="1155ad1c67f947e2b2163b27bda1db0b"
+									timeout="30000"
+									codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\OpenBrowser.cs"
+									codeline="114"
+									itemindex="2"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="5.4s"
+						durationms="5400"
+						type="test-module"
+						rid="114a2fc313e81816"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Login (WebWordPressLibrary)"
+						displayName="Login (WebWordPressLibrary)"
+						moduleid="efef8546-cad4-403d-96b5-fed425522e81"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Log in to back-end
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varPassword"
+								value="ranorex">
+							</varbinding>
+							<varbinding
+								name="varUsername"
+								value="ranorex webtest new">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.891"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:36:04"
+							time="00:03.891"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varPassword = 'ranorex', $varUsername = 'ranorex webtest new'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.995"
+							timeRelativeToTestModuleStartTime="00:00.104"
+							timeWallClock="18:36:04"
+							time="00:03.995"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Loginform.UserLogin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_login']"
+								itempath=".//input[@id='user_login']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserLogin"
+								id="73564b76288243c3b20bae17d266067d"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.167"
+							timeRelativeToTestModuleStartTime="00:01.277"
+							timeWallClock="18:36:05"
+							time="00:05.167"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Value to '$varUsername' on item 'WordPress_Demo.Loginform.UserLogin'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_login']"
+								itempath=".//input[@id='user_login']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserLogin"
+								id="73564b76288243c3b20bae17d266067d"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="112"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.362"
+							timeRelativeToTestModuleStartTime="00:01.472"
+							timeWallClock="18:36:06"
+							time="00:05.362"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Loginform.UserPass' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_pass']"
+								itempath=".//input[@id='user_pass']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserPass"
+								id="9ba00e0e2cec4c4cbe2dee6ce280d0a5"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="116"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.343"
+							timeRelativeToTestModuleStartTime="00:02.453"
+							timeWallClock="18:36:07"
+							time="00:06.343"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Value to '$varPassword' on item 'WordPress_Demo.Loginform.UserPass'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_pass']"
+								itempath=".//input[@id='user_pass']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserPass"
+								id="9ba00e0e2cec4c4cbe2dee6ce280d0a5"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="120"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.505"
+							timeRelativeToTestModuleStartTime="00:02.615"
+							timeWallClock="18:36:07"
+							time="00:06.505"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Loginform.WpSubmit' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']/?/?/input[@id='wp-submit']"
+								itempath="?/?/input[@id='wp-submit']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.WpSubmit"
+								id="4f9f56195b5247649765e16693137316"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="124"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.492"
+							timeRelativeToTestModuleStartTime="00:03.602"
+							timeWallClock="18:36:08"
+							time="00:07.492"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Dashboard' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-dashboard']"
+								itempath=".//li[#'menu-dashboard']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Dashboard"
+								id="20d7927156084b0b9f91e52976c473af"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="128"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="3.76s"
+						durationms="3757"
+						type="test-module"
+						rid="3ec5d62a201ae94"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="NavigateNewPost (WebWordPressLibrary)"
+						displayName="NavigateNewPost (WebWordPressLibrary)"
+						moduleid="b0235fd3-422d-452e-8d02-133e4dffd6e4"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.311"
+							timeRelativeToTestModuleStartTime="00:00.008"
+							timeWallClock="18:36:09"
+							time="00:09.311"
+							level="Info"
+							category="Invoke action">
+							<message>
+								Invoking EnsureVisible() on item 'WordPress_Demo.Posts'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-posts']"
+								itempath=".//li[#'menu-posts']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Posts"
+								id="b7d609117c2c4958baf7534def07cbb1"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\NavigateNewPost.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.879"
+							timeRelativeToTestModuleStartTime="00:00.576"
+							timeWallClock="18:36:10"
+							time="00:09.879"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse None Move item 'WordPress_Demo.Posts' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-posts']"
+								itempath=".//li[#'menu-posts']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Posts"
+								id="b7d609117c2c4958baf7534def07cbb1"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\NavigateNewPost.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.762"
+							timeRelativeToTestModuleStartTime="00:01.459"
+							timeWallClock="18:36:11"
+							time="00:10.762"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse None Move item 'WordPress_Demo.AllPosts' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-posts']//a[@innertext='All Posts']"
+								itempath=".//li[#'menu-posts']//a[@innertext='All Posts']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.AllPosts"
+								id="44201c90e37b4ed1a21a8fd6e663c06d"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\NavigateNewPost.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.910"
+							timeRelativeToTestModuleStartTime="00:02.607"
+							timeWallClock="18:36:12"
+							time="00:11.910"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.AddNew' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-posts']//a[@innertext='Add New']"
+								itempath=".//li[#'menu-posts']//a[@innertext='Add New']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.AddNew"
+								id="e255ffb3e7034ab6a36ec2ed602282a5"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\NavigateNewPost.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="8.97s"
+						durationms="8973"
+						type="test-module"
+						rid="700910bef6af374"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PublishNewPost (WebWordPressLibrary)"
+						displayName="PublishNewPost (WebWordPressLibrary)"
+						moduleid="5c0438e0-4aa8-4cce-9d0d-0adda576c6a7"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Add new post with header and content
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varPostTitle"
+								value="Ranorex is awesome!">
+							</varbinding>
+							<varbinding
+								name="varPostContent"
+								value="This is a demo-post automated with Ranorex">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.078"
+							timeRelativeToTestModuleStartTime="00:00.004"
+							timeWallClock="18:36:13"
+							time="00:13.078"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varPostTitle = 'Ranorex is awesome!', $varPostContent = 'This is a demo-post automated with Ranorex'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.219"
+							timeRelativeToTestModuleStartTime="00:00.146"
+							timeWallClock="18:36:13"
+							time="00:13.219"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Title' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//input[#'title']"
+								itempath=".//input[#'title']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Title"
+								id="f43fe2b4c6404dc4b19444d82e79d736"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\PublishNewPost.cs"
+								codeline="106"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.458"
+							timeRelativeToTestModuleStartTime="00:01.385"
+							timeWallClock="18:36:15"
+							time="00:14.458"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Value to '$varPostTitle' on item 'WordPress_Demo.Title'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//input[#'title']"
+								itempath=".//input[#'title']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Title"
+								id="f43fe2b4c6404dc4b19444d82e79d736"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\PublishNewPost.cs"
+								codeline="110"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.650"
+							timeRelativeToTestModuleStartTime="00:01.577"
+							timeWallClock="18:36:15"
+							time="00:14.650"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Content' at 199;67.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//textarea[@id='content']"
+								itempath=".//textarea[@id='content']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Content"
+								id="204ae0f97b3c4a6db273d9006e35a5c2"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\PublishNewPost.cs"
+								codeline="114"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.895"
+							timeRelativeToTestModuleStartTime="00:02.822"
+							timeWallClock="18:36:16"
+							time="00:15.895"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute TagValue to '$varPostContent' on item 'WordPress_Demo.Content'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//textarea[@id='content']"
+								itempath=".//textarea[@id='content']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Content"
+								id="204ae0f97b3c4a6db273d9006e35a5c2"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\PublishNewPost.cs"
+								codeline="118"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.048"
+							timeRelativeToTestModuleStartTime="00:02.975"
+							timeWallClock="18:36:16"
+							time="00:16.048"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Publish' at 43;14.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//input[@id='publish' and @class!~'disabled']"
+								itempath=".//input[@id='publish' and @class!~'disabled']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Publish"
+								id="87655afbb7fd4c8fa620fb5852b80b45"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\PublishNewPost.cs"
+								codeline="122"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="882ms"
+						durationms="882"
+						type="test-module"
+						rid="175b4140b70dd43a"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="GetPostURL (WebWordPressLibrary)"
+						displayName="GetPostURL (WebWordPressLibrary)"
+						moduleid="a144ff6a-5458-489a-b361-c147c99c84cb"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Read out permalink of that post
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varPostURL"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.064"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="18:36:22"
+							time="00:22.064"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varPostURL = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.240"
+							timeRelativeToTestModuleStartTime="00:00.178"
+							timeWallClock="18:36:22"
+							time="00:22.240"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'InnerText' from item 'WordPress_Demo.SamplePermalink' and assigning its value to variable 'varPostURL'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//span[#'sample-permalink']"
+								itempath=".//span[#'sample-permalink']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.SamplePermalink"
+								id="a75cd9f899bc40c39ddc8f2f3aaa705e"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\GetPostURL.cs"
+								codeline="93"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="5.66s"
+						durationms="5656"
+						type="test-module"
+						rid="17d3b1e75f22e4ba"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="LogOut (WebWordPressLibrary)"
+						displayName="LogOut (WebWordPressLibrary)"
+						moduleid="f297eb3c-19cb-4db4-917c-e476ae456167"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Log out
+						</detail>
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.950"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="18:36:23"
+							time="00:22.950"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Dashboard' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-dashboard']"
+								itempath=".//li[#'menu-dashboard']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Dashboard"
+								id="20d7927156084b0b9f91e52976c473af"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.072"
+							timeRelativeToTestModuleStartTime="00:01.124"
+							timeWallClock="18:36:24"
+							time="00:24.072"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse None Move item 'WordPress_Demo.MyAccount1' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'wp-admin-bar-my-account']/a[@innertext='Howdy, Ranorex Webtest new']"
+								itempath=".//li[#'wp-admin-bar-my-account']/a[@innertext='Howdy, Ranorex Webtest new']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.MyAccount1"
+								id="941d4a5d4fc34bceb0b7f75c361aec56"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.215"
+							timeRelativeToTestModuleStartTime="00:02.267"
+							timeWallClock="18:36:25"
+							time="00:25.215"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.LogOut' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'wp-admin-bar-logout']/a[@innertext='Log Out']"
+								itempath=".//li[#'wp-admin-bar-logout']/a[@innertext='Log Out']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.LogOut"
+								id="1b88e9a635884e2fa9709a0c951cd799"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.459"
+							timeRelativeToTestModuleStartTime="00:03.511"
+							timeWallClock="18:36:27"
+							time="00:26.459"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="3"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+								codeline="94"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="4.6s"
+						durationms="4601"
+						type="test-module"
+						rid="3e2d6c106297540"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="ValidatePost (WebWordPressLibrary)"
+						displayName="ValidatePost (WebWordPressLibrary)"
+						moduleid="fc856961-94e1-4ead-8db8-e0eac61124f6"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Validate the post from the front-end
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varPostURL"
+								value="http://webtest.ranorex.org/?p=79333">
+							</varbinding>
+							<varbinding
+								name="varPostContent"
+								value="This is a demo-post automated with Ranorex">
+							</varbinding>
+							<varbinding
+								name="varPostTitle"
+								value="Ranorex is awesome!">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.619"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="18:36:29"
+							time="00:28.619"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varPostURL = 'http://webtest.ranorex.org/?p=79333', $varPostContent = 'This is a demo-post automated with Ranorex', $varPostTitle = 'Ranorex is awesome!'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.730"
+							timeRelativeToTestModuleStartTime="00:00.113"
+							timeWallClock="18:36:29"
+							time="00:28.730"
+							level="Info"
+							category="Invoke action">
+							<message>
+								Invoking Navigate(variable $varPostURL) on item 'WordPress_Demo'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']"
+								itempath="/dom[@domain='webtest.ranorex.org']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Self"
+								id="1155ad1c67f947e2b2163b27bda1db0b"
+								timeout="30000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="117"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:29.174"
+							timeRelativeToTestModuleStartTime="00:00.557"
+							timeWallClock="18:36:29"
+							time="00:29.174"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText=$varPostTitle) on item 'WordPress_Demo.Pagetitle'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//h1[#'pagetitle']"
+								itempath=".//h1[#'pagetitle']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Pagetitle"
+								id="d33d1a101f16498d9ff554a4c542f24b"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="121"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:29.435"
+							timeRelativeToTestModuleStartTime="00:00.818"
+							timeWallClock="18:36:30"
+							time="00:29.435"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'WebWordPressLibraryRepository.WordPress_Demo.Pagetitle' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//h1[#'pagetitle']"
+								itempath=".//h1[#'pagetitle']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Pagetitle"
+								id="d33d1a101f16498d9ff554a4c542f24b"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="122"
+								loglvl="Success"
+								itemindex="1">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:29.524"
+							timeRelativeToTestModuleStartTime="00:00.907"
+							timeWallClock="18:36:30"
+							time="00:29.524"
+							level="Info"
+							category="Invoke action">
+							<message>
+								Invoking EnsureVisible() on item 'WordPress_Demo.Pagetitle'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//h1[#'pagetitle']"
+								itempath=".//h1[#'pagetitle']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Pagetitle"
+								id="d33d1a101f16498d9ff554a4c542f24b"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="125"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:30.195"
+							timeRelativeToTestModuleStartTime="00:01.578"
+							timeWallClock="18:36:30"
+							time="00:30.195"
+							level="Info"
+							category="User"
+							errimg="images_WordPres_713a0acc\WordPres_c83e7bc_rxlog.jpg"
+							errthumb="images_WordPres_713a0acc\WordPres_c83e7bc_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="3"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="129"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:30.196"
+							timeRelativeToTestModuleStartTime="00:01.580"
+							timeWallClock="18:36:30"
+							time="00:30.196"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText=$varPostContent) on item 'WordPress_Demo.PostContent'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//div[@id>'post-']/div[@class='entry']/p"
+								itempath=".//div[@id>'post-']/div[@class='entry']/p"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.PostContent"
+								id="3f002dd9dc744383a47913564ad81715"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="131"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:30.392"
+							timeRelativeToTestModuleStartTime="00:01.775"
+							timeWallClock="18:36:31"
+							time="00:30.392"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'WebWordPressLibraryRepository.WordPress_Demo.PostContent' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//div[@id>'post-']/div[@class='entry']/p"
+								itempath=".//div[@id>'post-']/div[@class='entry']/p"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.PostContent"
+								id="3f002dd9dc744383a47913564ad81715"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="132"
+								loglvl="Success"
+								itemindex="4">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:30.503"
+							timeRelativeToTestModuleStartTime="00:01.886"
+							timeWallClock="18:36:31"
+							time="00:30.503"
+							level="Info"
+							category="Invoke action">
+							<message>
+								Invoking EnsureVisible() on item 'WordPress_Demo.PostContent'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//div[@id>'post-']/div[@class='entry']/p"
+								itempath=".//div[@id>'post-']/div[@class='entry']/p"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.PostContent"
+								id="3f002dd9dc744383a47913564ad81715"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="135"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.096"
+							timeRelativeToTestModuleStartTime="00:02.479"
+							timeWallClock="18:36:31"
+							time="00:31.096"
+							level="Info"
+							category="User"
+							errimg="images_WordPres_713a0acc\WordPres_c83e7bf_rxlog.jpg"
+							errthumb="images_WordPres_713a0acc\WordPres_c83e7bf_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="6"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="139"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.099"
+							timeRelativeToTestModuleStartTime="00:02.482"
+							timeWallClock="18:36:31"
+							time="00:31.099"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="7"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="141"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="286ms"
+						durationms="286"
+						type="test-module"
+						rid="664d1b01ecae17e"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="NavigateLogin (WebWordPressLibrary)"
+						displayName="NavigateLogin (WebWordPressLibrary)"
+						moduleid="b4cae198-64a2-4954-82aa-3fe351ea32b7"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varLoginURL"
+								value="http://webtest.ranorex.org/wp-admin/edit.php">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:33.235"
+							timeRelativeToTestModuleStartTime="00:00.004"
+							timeWallClock="18:36:33"
+							time="00:33.235"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varLoginURL = 'http://webtest.ranorex.org/wp-admin/edit.php'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:33.378"
+							timeRelativeToTestModuleStartTime="00:00.147"
+							timeWallClock="18:36:34"
+							time="00:33.378"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute PageUrl to '$varLoginURL' on item 'WordPress_Demo'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']"
+								itempath="/dom[@domain='webtest.ranorex.org']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Self"
+								id="1155ad1c67f947e2b2163b27bda1db0b"
+								timeout="30000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\NavigateLogin.cs"
+								codeline="95"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="6.36s"
+						durationms="6356"
+						type="test-module"
+						rid="113e69108955b70a"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Login (WebWordPressLibrary)"
+						displayName="Login (WebWordPressLibrary)"
+						moduleid="efef8546-cad4-403d-96b5-fed425522e81"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Log in again
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varPassword"
+								value="ranorex">
+							</varbinding>
+							<varbinding
+								name="varUsername"
+								value="ranorex webtest new">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:33.522"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:36:34"
+							time="00:33.522"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varPassword = 'ranorex', $varUsername = 'ranorex webtest new'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:33.596"
+							timeRelativeToTestModuleStartTime="00:00.075"
+							timeWallClock="18:36:34"
+							time="00:33.596"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Loginform.UserLogin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_login']"
+								itempath=".//input[@id='user_login']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserLogin"
+								id="73564b76288243c3b20bae17d266067d"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:35.213"
+							timeRelativeToTestModuleStartTime="00:01.692"
+							timeWallClock="18:36:35"
+							time="00:35.213"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Value to '$varUsername' on item 'WordPress_Demo.Loginform.UserLogin'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_login']"
+								itempath=".//input[@id='user_login']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserLogin"
+								id="73564b76288243c3b20bae17d266067d"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="112"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:35.454"
+							timeRelativeToTestModuleStartTime="00:01.933"
+							timeWallClock="18:36:36"
+							time="00:35.454"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Loginform.UserPass' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_pass']"
+								itempath=".//input[@id='user_pass']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserPass"
+								id="9ba00e0e2cec4c4cbe2dee6ce280d0a5"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="116"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:36.516"
+							timeRelativeToTestModuleStartTime="00:02.995"
+							timeWallClock="18:36:37"
+							time="00:36.516"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Value to '$varPassword' on item 'WordPress_Demo.Loginform.UserPass'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_pass']"
+								itempath=".//input[@id='user_pass']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserPass"
+								id="9ba00e0e2cec4c4cbe2dee6ce280d0a5"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="120"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:36.712"
+							timeRelativeToTestModuleStartTime="00:03.191"
+							timeWallClock="18:36:37"
+							time="00:36.712"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Loginform.WpSubmit' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']/?/?/input[@id='wp-submit']"
+								itempath="?/?/input[@id='wp-submit']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.WpSubmit"
+								id="4f9f56195b5247649765e16693137316"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="124"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:37.760"
+							timeRelativeToTestModuleStartTime="00:04.239"
+							timeWallClock="18:36:38"
+							time="00:37.760"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Dashboard' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-dashboard']"
+								itempath=".//li[#'menu-dashboard']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Dashboard"
+								id="20d7927156084b0b9f91e52976c473af"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="128"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="6.66s"
+						durationms="6661"
+						type="test-module"
+						rid="1b5d29ed298dd7e1"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="DeletePost (WebWordPressLibrary)"
+						displayName="DeletePost (WebWordPressLibrary)"
+						moduleid="d3c9939f-4a9c-4c66-b0ba-0a26ae62285f"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Move to trash
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varPostURL"
+								value="http://webtest.ranorex.org/?p=79333">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:39.895"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="18:36:40"
+							time="00:39.895"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varPostURL = 'http://webtest.ranorex.org/?p=79333'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.020"
+							timeRelativeToTestModuleStartTime="00:00.128"
+							timeWallClock="18:36:40"
+							time="00:40.020"
+							level="Info"
+							category="Invoke action">
+							<message>
+								Invoking Navigate(variable $varPostURL) on item 'WordPress_Demo'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']"
+								itempath="/dom[@domain='webtest.ranorex.org']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Self"
+								id="1155ad1c67f947e2b2163b27bda1db0b"
+								timeout="30000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\DeletePost.cs"
+								codeline="93"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.444"
+							timeRelativeToTestModuleStartTime="00:00.552"
+							timeWallClock="18:36:41"
+							time="00:40.444"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.RecentPost' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'recent-posts-2']//a[@href='http://webtest.ranorex.org/?p=79333']"
+								itempath=".//li[#'recent-posts-2']//a[@href=$varPostURL]"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.RecentPost"
+								id="bb18736e7f5b4b59a50b8ec22986e78b"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\DeletePost.cs"
+								codeline="97"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:41.700"
+							timeRelativeToTestModuleStartTime="00:01.808"
+							timeWallClock="18:36:42"
+							time="00:41.700"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.EditPost' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'wp-admin-bar-edit']/a[@innertext='Edit Post']"
+								itempath=".//li[#'wp-admin-bar-edit']/a[@innertext='Edit Post']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.EditPost"
+								id="058f30eda7a942fe8fc91fc0359efabf"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\DeletePost.cs"
+								codeline="101"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:42.835"
+							timeRelativeToTestModuleStartTime="00:02.943"
+							timeWallClock="18:36:43"
+							time="00:42.835"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.MoveToTrash' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//div[#'delete-action']/a[@innertext='Move to Trash']"
+								itempath=".//div[#'delete-action']/a[@innertext='Move to Trash']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.MoveToTrash"
+								id="baf7acf699684f11920fc8a8ae26ceb1"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\DeletePost.cs"
+								codeline="105"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:44.405"
+							timeRelativeToTestModuleStartTime="00:04.513"
+							timeWallClock="18:36:45"
+							time="00:44.405"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="4"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\DeletePost.cs"
+								codeline="109"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="7.4s"
+						durationms="7397"
+						type="teardown-container"
+						rid="14978ad91b7acf71"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="3"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Success"
+							duration="6.63s"
+							durationms="6630"
+							type="test-module"
+							rid="2206f2a946440173"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="LogOut (WebWordPressLibrary)"
+							displayName="LogOut (WebWordPressLibrary)"
+							moduleid="f297eb3c-19cb-4db4-917c-e476ae456167"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<detail>
+								Log out of back end
+							</detail>
+							<varbindings>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:46.563"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="18:36:47"
+								time="00:46.563"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'WordPress_Demo.Dashboard' at Center.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='webtest.ranorex.org']//li[#'menu-dashboard']"
+									itempath=".//li[#'menu-dashboard']"
+									fullname="WebWordPressLibraryRepository.WordPress_Demo.Dashboard"
+									id="20d7927156084b0b9f91e52976c473af"
+									timeout="60000"
+									codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:48.076"
+								timeRelativeToTestModuleStartTime="00:01.516"
+								timeWallClock="18:36:48"
+								time="00:48.076"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse None Move item 'WordPress_Demo.MyAccount1' at Center.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='webtest.ranorex.org']//li[#'wp-admin-bar-my-account']/a[@innertext='Howdy, Ranorex Webtest new']"
+									itempath=".//li[#'wp-admin-bar-my-account']/a[@innertext='Howdy, Ranorex Webtest new']"
+									fullname="WebWordPressLibraryRepository.WordPress_Demo.MyAccount1"
+									id="941d4a5d4fc34bceb0b7f75c361aec56"
+									timeout="60000"
+									codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+									codeline="86"
+									itemindex="1"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:49.556"
+								timeRelativeToTestModuleStartTime="00:02.996"
+								timeWallClock="18:36:50"
+								time="00:49.556"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'WordPress_Demo.LogOut' at Center.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='webtest.ranorex.org']//li[#'wp-admin-bar-logout']/a[@innertext='Log Out']"
+									itempath=".//li[#'wp-admin-bar-logout']/a[@innertext='Log Out']"
+									fullname="WebWordPressLibraryRepository.WordPress_Demo.LogOut"
+									id="1b88e9a635884e2fa9709a0c951cd799"
+									timeout="60000"
+									codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+									codeline="90"
+									itemindex="2"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:51.045"
+								timeRelativeToTestModuleStartTime="00:04.485"
+								timeWallClock="18:36:51"
+								time="00:51.045"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 2s.
+								</message>
+								<metainfo
+									itemindex="3"
+									codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+									codeline="94"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="675ms"
+							durationms="675"
+							type="test-module"
+							rid="2aba5caf876e678a"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="CloseBrowser (WebWordPressLibrary)"
+							displayName="CloseBrowser (WebWordPressLibrary)"
+							moduleid="13e51bc5-44c7-4f36-89b7-c187dc391f75"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:53.198"
+								timeRelativeToTestModuleStartTime="00:00.003"
+								timeWallClock="18:36:53"
+								time="00:53.198"
+								level="Info"
+								category="Application">
+								<message>
+									Closing application containing item 'WordPress_Demo'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='webtest.ranorex.org']"
+									itempath="/dom[@domain='webtest.ranorex.org']"
+									fullname="WebWordPressLibraryRepository.WordPress_Demo.Self"
+									id="1155ad1c67f947e2b2163b27bda1db0b"
+									timeout="30000"
+									codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\CloseBrowser.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="74ms"
+							durationms="74"
+							type="test-module"
+							rid="2b4b26ddc6b89566"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="StopWatchingPopup (WebWordPressLibrary)"
+							displayName="StopWatchingPopup (WebWordPressLibrary)"
+							moduleid="3ddee1a2-e900-4273-bdaf-ede19376659e"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<detail>
+								Stop watching for popup
+							</detail>
+							<varbindings>
+							</varbindings>
+						</activity>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="53.73s"
+					durationms="53727"
+					type="test-case"
+					rid="1c4f9b721e4577ce"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="8"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="AddBlogPost"
+					testcontainerid="3cad3cc9-b1a3-4575-bca1-f1d629f157b5"
+					headertext="AddBlogPost"
+					displayName="AddBlogPost"
+					iteration="2"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="browser">
+							Chrome
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="1.43s"
+						durationms="1431"
+						type="setup-container"
+						rid="6143274dce45ca8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="2"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Success"
+							duration="6ms"
+							durationms="6"
+							type="test-module"
+							rid="9171fcde58d54d6"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="StartWatchingPopup (WebWordPressLibrary)"
+							displayName="StartWatchingPopup (WebWordPressLibrary)"
+							moduleid="77069f78-66fa-41ee-9bc3-a658da488ad8"
+							moduletype="UserCode"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+							</varbindings>
+						</activity>
+						<activity
+							result="Success"
+							duration="1.42s"
+							durationms="1417"
+							type="test-module"
+							rid="52abd29d1851172"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="OpenBrowser (WebWordPressLibrary)"
+							displayName="OpenBrowser (WebWordPressLibrary)"
+							moduleid="1a79ad03-9369-4d42-8d3a-34a236d1ed1d"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="varLoginURL"
+									value="http://webtest.ranorex.org/wp-admin/edit.php">
+								</varbinding>
+								<varbinding
+									name="browser"
+									value="Chrome">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:53.974"
+								timeRelativeToTestModuleStartTime="00:00.003"
+								timeWallClock="18:36:54"
+								time="00:53.974"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$varLoginURL = 'http://webtest.ranorex.org/wp-admin/edit.php', $browser = 'Chrome'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:54.087"
+								timeRelativeToTestModuleStartTime="00:00.115"
+								timeWallClock="18:36:54"
+								time="00:54.087"
+								level="Info"
+								category="Website">
+								<message>
+									Opening web site 'http://webtest.ranorex.org' with browser specified by variable $browser in maximized mode.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\OpenBrowser.cs"
+									codeline="108"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:54.793"
+								timeRelativeToTestModuleStartTime="00:00.821"
+								timeWallClock="18:36:55"
+								time="00:54.793"
+								level="Info"
+								category="User"
+								errimg="images_WordPres_713a0acc\WordPres_c83e7be_rxlog.jpg"
+								errthumb="images_WordPres_713a0acc\WordPres_c83e7be_rxlog_thumb.jpg">
+								<message>
+									
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\OpenBrowser.cs"
+									codeline="112"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:54.797"
+								timeRelativeToTestModuleStartTime="00:00.825"
+								timeWallClock="18:36:55"
+								time="00:54.797"
+								level="Info"
+								category="Invoke action">
+								<message>
+									Invoking Navigate(variable $varLoginURL) on item 'WordPress_Demo'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='webtest.ranorex.org']"
+									itempath="/dom[@domain='webtest.ranorex.org']"
+									fullname="WebWordPressLibraryRepository.WordPress_Demo.Self"
+									id="1155ad1c67f947e2b2163b27bda1db0b"
+									timeout="30000"
+									codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\OpenBrowser.cs"
+									codeline="114"
+									itemindex="2"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="4.82s"
+						durationms="4816"
+						type="test-module"
+						rid="278a6cacfdb8348f"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Login (WebWordPressLibrary)"
+						displayName="Login (WebWordPressLibrary)"
+						moduleid="efef8546-cad4-403d-96b5-fed425522e81"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Log in to back-end
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varPassword"
+								value="ranorex">
+							</varbinding>
+							<varbinding
+								name="varUsername"
+								value="ranorex webtest new">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:55.391"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:36:56"
+							time="00:55.391"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varPassword = 'ranorex', $varUsername = 'ranorex webtest new'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:55.462"
+							timeRelativeToTestModuleStartTime="00:00.072"
+							timeWallClock="18:36:56"
+							time="00:55.462"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Loginform.UserLogin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_login']"
+								itempath=".//input[@id='user_login']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserLogin"
+								id="73564b76288243c3b20bae17d266067d"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:56.269"
+							timeRelativeToTestModuleStartTime="00:00.878"
+							timeWallClock="18:36:56"
+							time="00:56.269"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Value to '$varUsername' on item 'WordPress_Demo.Loginform.UserLogin'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_login']"
+								itempath=".//input[@id='user_login']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserLogin"
+								id="73564b76288243c3b20bae17d266067d"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="112"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:56.497"
+							timeRelativeToTestModuleStartTime="00:01.107"
+							timeWallClock="18:36:57"
+							time="00:56.497"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Loginform.UserPass' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_pass']"
+								itempath=".//input[@id='user_pass']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserPass"
+								id="9ba00e0e2cec4c4cbe2dee6ce280d0a5"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="116"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:57.263"
+							timeRelativeToTestModuleStartTime="00:01.873"
+							timeWallClock="18:36:57"
+							time="00:57.263"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Value to '$varPassword' on item 'WordPress_Demo.Loginform.UserPass'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_pass']"
+								itempath=".//input[@id='user_pass']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserPass"
+								id="9ba00e0e2cec4c4cbe2dee6ce280d0a5"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="120"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:57.430"
+							timeRelativeToTestModuleStartTime="00:02.040"
+							timeWallClock="18:36:58"
+							time="00:57.430"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Loginform.WpSubmit' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']/?/?/input[@id='wp-submit']"
+								itempath="?/?/input[@id='wp-submit']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.WpSubmit"
+								id="4f9f56195b5247649765e16693137316"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="124"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:58.228"
+							timeRelativeToTestModuleStartTime="00:02.837"
+							timeWallClock="18:36:58"
+							time="00:58.228"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Dashboard' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-dashboard']"
+								itempath=".//li[#'menu-dashboard']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Dashboard"
+								id="20d7927156084b0b9f91e52976c473af"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="128"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="2.57s"
+						durationms="2567"
+						type="test-module"
+						rid="b538a86b787e487"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="NavigateNewPost (WebWordPressLibrary)"
+						displayName="NavigateNewPost (WebWordPressLibrary)"
+						moduleid="b0235fd3-422d-452e-8d02-133e4dffd6e4"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:00.213"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="18:37:00"
+							time="01:00.213"
+							level="Info"
+							category="Invoke action">
+							<message>
+								Invoking EnsureVisible() on item 'WordPress_Demo.Posts'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-posts']"
+								itempath=".//li[#'menu-posts']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Posts"
+								id="b7d609117c2c4958baf7534def07cbb1"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\NavigateNewPost.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:00.441"
+							timeRelativeToTestModuleStartTime="00:00.230"
+							timeWallClock="18:37:01"
+							time="01:00.441"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse None Move item 'WordPress_Demo.Posts' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-posts']"
+								itempath=".//li[#'menu-posts']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Posts"
+								id="b7d609117c2c4958baf7534def07cbb1"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\NavigateNewPost.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:01.113"
+							timeRelativeToTestModuleStartTime="00:00.903"
+							timeWallClock="18:37:01"
+							time="01:01.113"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse None Move item 'WordPress_Demo.AllPosts' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-posts']//a[@innertext='All Posts']"
+								itempath=".//li[#'menu-posts']//a[@innertext='All Posts']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.AllPosts"
+								id="44201c90e37b4ed1a21a8fd6e663c06d"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\NavigateNewPost.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:01.912"
+							timeRelativeToTestModuleStartTime="00:01.702"
+							timeWallClock="18:37:02"
+							time="01:01.912"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.AddNew' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-posts']//a[@innertext='Add New']"
+								itempath=".//li[#'menu-posts']//a[@innertext='Add New']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.AddNew"
+								id="e255ffb3e7034ab6a36ec2ed602282a5"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\NavigateNewPost.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="7.95s"
+						durationms="7949"
+						type="test-module"
+						rid="1002be796662bae"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="PublishNewPost (WebWordPressLibrary)"
+						displayName="PublishNewPost (WebWordPressLibrary)"
+						moduleid="5c0438e0-4aa8-4cce-9d0d-0adda576c6a7"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Add new post with header and content
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varPostTitle"
+								value="Ranorex is awesome!">
+							</varbinding>
+							<varbinding
+								name="varPostContent"
+								value="This is a demo-post automated with Ranorex">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:02.796"
+							timeRelativeToTestModuleStartTime="00:00.010"
+							timeWallClock="18:37:03"
+							time="01:02.796"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varPostTitle = 'Ranorex is awesome!', $varPostContent = 'This is a demo-post automated with Ranorex'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:02.921"
+							timeRelativeToTestModuleStartTime="00:00.135"
+							timeWallClock="18:37:03"
+							time="01:02.921"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Title' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//input[#'title']"
+								itempath=".//input[#'title']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Title"
+								id="f43fe2b4c6404dc4b19444d82e79d736"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\PublishNewPost.cs"
+								codeline="106"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:03.831"
+							timeRelativeToTestModuleStartTime="00:01.045"
+							timeWallClock="18:37:04"
+							time="01:03.831"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Value to '$varPostTitle' on item 'WordPress_Demo.Title'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//input[#'title']"
+								itempath=".//input[#'title']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Title"
+								id="f43fe2b4c6404dc4b19444d82e79d736"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\PublishNewPost.cs"
+								codeline="110"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:04.012"
+							timeRelativeToTestModuleStartTime="00:01.226"
+							timeWallClock="18:37:04"
+							time="01:04.012"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Content' at 199;67.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//textarea[@id='content']"
+								itempath=".//textarea[@id='content']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Content"
+								id="204ae0f97b3c4a6db273d9006e35a5c2"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\PublishNewPost.cs"
+								codeline="114"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:04.907"
+							timeRelativeToTestModuleStartTime="00:02.122"
+							timeWallClock="18:37:05"
+							time="01:04.907"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute TagValue to '$varPostContent' on item 'WordPress_Demo.Content'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//textarea[@id='content']"
+								itempath=".//textarea[@id='content']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Content"
+								id="204ae0f97b3c4a6db273d9006e35a5c2"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\PublishNewPost.cs"
+								codeline="118"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:05.122"
+							timeRelativeToTestModuleStartTime="00:02.336"
+							timeWallClock="18:37:05"
+							time="01:05.122"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Publish' at 43;14.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//input[@id='publish' and @class!~'disabled']"
+								itempath=".//input[@id='publish' and @class!~'disabled']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Publish"
+								id="87655afbb7fd4c8fa620fb5852b80b45"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\PublishNewPost.cs"
+								codeline="122"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="746ms"
+						durationms="746"
+						type="test-module"
+						rid="12109d82ed56c3b2"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="GetPostURL (WebWordPressLibrary)"
+						displayName="GetPostURL (WebWordPressLibrary)"
+						moduleid="a144ff6a-5458-489a-b361-c147c99c84cb"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Read out permalink of that post
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varPostURL"
+								value="http://webtest.ranorex.org/?p=79333">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:10.738"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="18:37:11"
+							time="01:10.738"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varPostURL = 'http://webtest.ranorex.org/?p=79333'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:10.827"
+							timeRelativeToTestModuleStartTime="00:00.090"
+							timeWallClock="18:37:11"
+							time="01:10.827"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'InnerText' from item 'WordPress_Demo.SamplePermalink' and assigning its value to variable 'varPostURL'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//span[#'sample-permalink']"
+								itempath=".//span[#'sample-permalink']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.SamplePermalink"
+								id="a75cd9f899bc40c39ddc8f2f3aaa705e"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\GetPostURL.cs"
+								codeline="93"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="4.55s"
+						durationms="4550"
+						type="test-module"
+						rid="19f668c4047844b6"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="LogOut (WebWordPressLibrary)"
+						displayName="LogOut (WebWordPressLibrary)"
+						moduleid="f297eb3c-19cb-4db4-917c-e476ae456167"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Log out
+						</detail>
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:11.485"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:37:12"
+							time="01:11.485"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Dashboard' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'menu-dashboard']"
+								itempath=".//li[#'menu-dashboard']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Dashboard"
+								id="20d7927156084b0b9f91e52976c473af"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:12.265"
+							timeRelativeToTestModuleStartTime="00:00.780"
+							timeWallClock="18:37:12"
+							time="01:12.265"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse None Move item 'WordPress_Demo.MyAccount1' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'wp-admin-bar-my-account']/a[@innertext='Howdy, Ranorex Webtest new']"
+								itempath=".//li[#'wp-admin-bar-my-account']/a[@innertext='Howdy, Ranorex Webtest new']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.MyAccount1"
+								id="941d4a5d4fc34bceb0b7f75c361aec56"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:13.018"
+							timeRelativeToTestModuleStartTime="00:01.532"
+							timeWallClock="18:37:13"
+							time="01:13.018"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.LogOut' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//li[#'wp-admin-bar-logout']/a[@innertext='Log Out']"
+								itempath=".//li[#'wp-admin-bar-logout']/a[@innertext='Log Out']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.LogOut"
+								id="1b88e9a635884e2fa9709a0c951cd799"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:13.914"
+							timeRelativeToTestModuleStartTime="00:02.429"
+							timeWallClock="18:37:14"
+							time="01:13.914"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="3"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\LogOut.cs"
+								codeline="94"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="3.91s"
+						durationms="3911"
+						type="test-module"
+						rid="25283f6877f2dca"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="ValidatePost (WebWordPressLibrary)"
+						displayName="ValidatePost (WebWordPressLibrary)"
+						moduleid="fc856961-94e1-4ead-8db8-e0eac61124f6"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Validate the post from the front-end
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varPostURL"
+								value="http://webtest.ranorex.org/?p=79335">
+							</varbinding>
+							<varbinding
+								name="varPostContent"
+								value="This is a demo-post automated with Ranorex">
+							</varbinding>
+							<varbinding
+								name="varPostTitle"
+								value="Ranorex is awesome!">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:16.048"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="18:37:16"
+							time="01:16.048"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varPostURL = 'http://webtest.ranorex.org/?p=79335', $varPostContent = 'This is a demo-post automated with Ranorex', $varPostTitle = 'Ranorex is awesome!'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:16.162"
+							timeRelativeToTestModuleStartTime="00:00.117"
+							timeWallClock="18:37:16"
+							time="01:16.162"
+							level="Info"
+							category="Invoke action">
+							<message>
+								Invoking Navigate(variable $varPostURL) on item 'WordPress_Demo'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']"
+								itempath="/dom[@domain='webtest.ranorex.org']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Self"
+								id="1155ad1c67f947e2b2163b27bda1db0b"
+								timeout="30000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="117"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:16.780"
+							timeRelativeToTestModuleStartTime="00:00.734"
+							timeWallClock="18:37:17"
+							time="01:16.780"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText=$varPostTitle) on item 'WordPress_Demo.Pagetitle'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//h1[#'pagetitle']"
+								itempath=".//h1[#'pagetitle']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Pagetitle"
+								id="d33d1a101f16498d9ff554a4c542f24b"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="121"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:16.931"
+							timeRelativeToTestModuleStartTime="00:00.885"
+							timeWallClock="18:37:17"
+							time="01:16.931"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'WebWordPressLibraryRepository.WordPress_Demo.Pagetitle' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//h1[#'pagetitle']"
+								itempath=".//h1[#'pagetitle']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Pagetitle"
+								id="d33d1a101f16498d9ff554a4c542f24b"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="122"
+								loglvl="Success"
+								itemindex="1">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:17.024"
+							timeRelativeToTestModuleStartTime="00:00.978"
+							timeWallClock="18:37:17"
+							time="01:17.024"
+							level="Info"
+							category="Invoke action">
+							<message>
+								Invoking EnsureVisible() on item 'WordPress_Demo.Pagetitle'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//h1[#'pagetitle']"
+								itempath=".//h1[#'pagetitle']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Pagetitle"
+								id="d33d1a101f16498d9ff554a4c542f24b"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="125"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:17.280"
+							timeRelativeToTestModuleStartTime="00:01.234"
+							timeWallClock="18:37:17"
+							time="01:17.280"
+							level="Info"
+							category="User"
+							errimg="images_WordPres_713a0acc\WordPres_c83e7c1_rxlog.jpg"
+							errthumb="images_WordPres_713a0acc\WordPres_c83e7c1_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="3"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="129"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:17.281"
+							timeRelativeToTestModuleStartTime="00:01.235"
+							timeWallClock="18:37:17"
+							time="01:17.281"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText=$varPostContent) on item 'WordPress_Demo.PostContent'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//div[@id>'post-']/div[@class='entry']/p"
+								itempath=".//div[@id>'post-']/div[@class='entry']/p"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.PostContent"
+								id="3f002dd9dc744383a47913564ad81715"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="131"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:17.482"
+							timeRelativeToTestModuleStartTime="00:01.437"
+							timeWallClock="18:37:18"
+							time="01:17.482"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'WebWordPressLibraryRepository.WordPress_Demo.PostContent' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//div[@id>'post-']/div[@class='entry']/p"
+								itempath=".//div[@id>'post-']/div[@class='entry']/p"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.PostContent"
+								id="3f002dd9dc744383a47913564ad81715"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="132"
+								loglvl="Success"
+								itemindex="4">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:17.585"
+							timeRelativeToTestModuleStartTime="00:01.539"
+							timeWallClock="18:37:18"
+							time="01:17.585"
+							level="Info"
+							category="Invoke action">
+							<message>
+								Invoking EnsureVisible() on item 'WordPress_Demo.PostContent'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//div[@id>'post-']/div[@class='entry']/p"
+								itempath=".//div[@id>'post-']/div[@class='entry']/p"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.PostContent"
+								id="3f002dd9dc744383a47913564ad81715"
+								timeout="60000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="135"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:17.843"
+							timeRelativeToTestModuleStartTime="00:01.797"
+							timeWallClock="18:37:18"
+							time="01:17.843"
+							level="Info"
+							category="User"
+							errimg="images_WordPres_713a0acc\WordPres_c83e7c0_rxlog.jpg"
+							errthumb="images_WordPres_713a0acc\WordPres_c83e7c0_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="6"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="139"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:17.845"
+							timeRelativeToTestModuleStartTime="00:01.799"
+							timeWallClock="18:37:18"
+							time="01:17.845"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="7"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\ValidatePost.cs"
+								codeline="141"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="332ms"
+						durationms="332"
+						type="test-module"
+						rid="6e385b37d58d060"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="NavigateLogin (WebWordPressLibrary)"
+						displayName="NavigateLogin (WebWordPressLibrary)"
+						moduleid="b4cae198-64a2-4954-82aa-3fe351ea32b7"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="varLoginURL"
+								value="http://webtest.ranorex.org/wp-admin/edit.php">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:19.966"
+							timeRelativeToTestModuleStartTime="00:00.004"
+							timeWallClock="18:37:20"
+							time="01:19.966"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varLoginURL = 'http://webtest.ranorex.org/wp-admin/edit.php'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:20.163"
+							timeRelativeToTestModuleStartTime="00:00.201"
+							timeWallClock="18:37:20"
+							time="01:20.163"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute PageUrl to '$varLoginURL' on item 'WordPress_Demo'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']"
+								itempath="/dom[@domain='webtest.ranorex.org']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Self"
+								id="1155ad1c67f947e2b2163b27bda1db0b"
+								timeout="30000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\NavigateLogin.cs"
+								codeline="95"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="27.39s"
+						durationms="27389"
+						type="test-module"
+						rid="67b63690099b2a2"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Login (WebWordPressLibrary)"
+						displayName="Login (WebWordPressLibrary)"
+						moduleid="efef8546-cad4-403d-96b5-fed425522e81"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<detail>
+							Log in again
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varPassword"
+								value="ranorex">
+							</varbinding>
+							<varbinding
+								name="varUsername"
+								value="ranorex webtest new">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:20.297"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="18:37:20"
+							time="01:20.297"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varPassword = 'ranorex', $varUsername = 'ranorex webtest new'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:20.397"
+							timeRelativeToTestModuleStartTime="00:00.101"
+							timeWallClock="18:37:21"
+							time="01:20.397"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WordPress_Demo.Loginform.UserLogin' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='webtest.ranorex.org']//form[#'loginform']//input[@id='user_login']"
+								itempath=".//input[@id='user_login']"
+								fullname="WebWordPressLibraryRepository.WordPress_Demo.Loginform.UserLogin"
+								id="73564b76288243c3b20bae17d266067d"
+								timeout="90000"
+								codefile="c:\Users\meedo\Documents\Ranorex\RanorexStudio Projects\Samples\WordPressSample_1\WebWordPressLibrary\Login.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:47.686"
+							timeRelativeToTestModuleStartTime="00:27.389"
+							timeWallClock="18:37:48"
+							time="01:47.686"
+							level="Error"
+							category="Module">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
